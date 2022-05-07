@@ -16,3 +16,38 @@ let intervalID;
 let ballSpeed = 1;
 let ballX = gameWidth / 2;
 let ballY = gameHeight / 2;
+let ballXDirection = 0;
+let ballYDirection = 0;
+let player1score = 0;
+let player2score = 0;
+let paddle1 = {
+  width: 25,
+  height: 100,
+  x: 0,
+  y: 0
+};
+let paddle2 = {
+  width: 25,
+  height: 100,
+  x: gameWidth - 25,
+  y: gameHeight - 25
+};
+window.addEventListener("keydown", changeDirection);
+resetBtn.addEventListener("click", resetGame);
+
+gameStart();
+function gameStart(){};
+function nextTick(){};
+function clearBoard(){};
+function drawPaddles(){
+   ctx.stroketyle = paddleBorder;
+   
+   ctx.fillstyle
+};
+function createBalls(){};
+function moveBall(){};
+function drawBall(){};
+function checkCollision(){};
+function changeDirection(){};
+function updateScore(){};
+function resetGame(){};
